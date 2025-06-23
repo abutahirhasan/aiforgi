@@ -67,6 +67,16 @@
             background-color: $header-color-2;
         }
     }
+    &.theme-btn-3 {
+        background-color: $theme-color-3;
+        color: $white;
+        font-size: 16px;
+        font-weight: 600;
+
+        &::before,&::after {
+            background-color: #0153cf;
+        }
+    }
 
     &.style-2 {
         border-radius: 10px;

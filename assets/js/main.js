@@ -143,34 +143,35 @@ CSS TABLE OF CONTENTS
         //>> Brand Slider Start <<//
         if($('.brand-slider').length > 0) {
             const brandSlider = new Swiper(".brand-slider", {
-                spaceBetween: 30,
-                speed: 2000,
-                loop: true,
-                autoplay: {
-                    delay: 2000,
-                    disableOnInteraction: false,
-                },
-                breakpoints: {
-                    1199: {
-                        slidesPerView: 5,
-                    },
-                    991: {
-                        slidesPerView: 4,
-                    },
-                    767: {
-                        slidesPerView: 3,
-                    },
-                    575: {
-                        slidesPerView: 2,
-                    },
-                    400: {
-                        slidesPerView: 1,
-                    },
-                    0: {
-                        slidesPerView: 1,
-                    },
-                },
-            });
+					spaceBetween: 30,
+					speed: 2000,
+					centeredSlides: true,
+					loop: true,
+					autoplay: {
+						delay: 2000,
+						disableOnInteraction: false,
+					},
+					breakpoints: {
+						1199: {
+							slidesPerView: 5,
+						},
+						991: {
+							slidesPerView: 4,
+						},
+						767: {
+							slidesPerView: 3,
+						},
+						575: {
+							slidesPerView: 2,
+						},
+						400: {
+							slidesPerView: 1,
+						},
+						0: {
+							slidesPerView: 1,
+						},
+					},
+				});
         }
 
         //>> Testimonial Slider Start <<//

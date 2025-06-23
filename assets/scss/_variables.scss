@@ -6,6 +6,7 @@
     --white: #fff;
     --theme: #EFFB53;
     --theme2: #514DE0;
+    --theme3: #0D6DFD;
     --header: #151518;
     --header2: #072032;
     --text: #CDCDCD;
@@ -14,6 +15,8 @@
     --body-bg: #151518;
     --bg: #1A1A1E;
     --box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.06);
+
+    --secondary-clr: #F2F2F2;
 }
 
 // Theme Color - Defualt Colors
@@ -21,6 +24,7 @@ $black: var(--black);
 $white: var(--white);
 $theme-color: var(--theme);
 $theme-color-2: var(--theme2);
+$theme-color-3: var(--theme3);
 $text-color: var(--text);
 $text-color-2: var(--text2);
 $header-color: var(--header);
@@ -29,3 +33,4 @@ $border-color: var(--border);
 $body-bg: var(--body-bg);
 $bg-color: var(--bg);
 $shadow: var(--box-shadow);
+$secondary-clr: var(--secondary-clr);

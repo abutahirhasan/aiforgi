@@ -79,6 +79,22 @@
             }
         }
     }
+    @include breakpoint(max-xxl){
+        .news-content {
+            margin-top: 16px;
+            .post-cat {
+                margin-bottom: 8px;
+            }
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            .link-btn {
+                font-size: 15px;
+            }
+        }
+    }
 }
 
 .news-box-items-2 {

@@ -65,7 +65,25 @@
 			}
 		}
 	}
-
+	&.style-4{
+		h2{
+			font-size: 48px;
+		}
+	}
+	@include breakpoint(max-xl){
+		&.style-4{
+			h2{
+				font-size: 36px;
+			}
+		}
+	}
+	@include breakpoint(max-lg){
+		&.style-4{
+			h2{
+				font-size: 28px;
+			}
+		}
+	}
 }
 
 .section-title-area	{

@@ -4232,6 +4232,20 @@ span {
 .news-box-items .news-content .link-btn:hover {
   color: var(--theme2);
 }
+@media (max-width: 1399px) {
+  .news-box-items .news-content {
+    margin-top: 16px;
+  }
+  .news-box-items .news-content .post-cat {
+    margin-bottom: 8px;
+  }
+  .news-box-items .news-content h3 {
+    margin-bottom: 10px;
+  }
+  .news-box-items .news-content .link-btn {
+    font-size: 15px;
+  }
+}
 
 .news-box-items-2 {
   margin-top: 30px;
@@ -5913,6 +5927,19 @@ input.main-search-input::placeholder {
 @media (max-width: 470px) {
   .section-title.style-2 h2 {
     font-size: 32px;
+  }
+}
+.section-title.style-4 h2 {
+  font-size: 48px;
+}
+@media (max-width: 1199px) {
+  .section-title.style-4 h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 991px) {
+  .section-title.style-4 h2 {
+    font-size: 28px;
   }
 }
 
